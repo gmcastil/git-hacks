@@ -1,4 +1,4 @@
- Startup with GitHub
+Startup with GitHub
 =====================
 
 This is a very basic tutorial on how to get up and running with an open source
@@ -49,7 +49,7 @@ GitHub account (you will probably need to do this from the web interface).
 
 1. Now clone a local copy::
 
-  $ git clone git@github.com:USERNAME/<forked repo>.git <local name>
+     $ git clone git@github.com:USERNAME/<forked repo>.git <local name>
 
 2. Add this as the `origin` repository::
 
@@ -99,8 +99,8 @@ Sync a Forked Repo
 
      $ git push <REMOTENAME> <BRANCHNAME>
 
-   This is usually something like `git push origin master`, where
-   `origin` is the forked repo on GitHub and `master` is the local
+   This is usually something like `git push origin master', where
+   `origin' is the forked repo on GitHub and `master' is the local
    master branch, which has been updated from the upstream repository.
      
 Links
