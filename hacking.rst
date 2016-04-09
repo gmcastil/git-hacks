@@ -3,9 +3,9 @@ Startup with GitHub
 
 This is a very basic tutorial on how to get up and running with an open source
 project that is hosted on GitHub.  It does not cover nearly all of the features
-of git but it should get you up.  This is really just a list of steps that I
-found myself repeating a lot and had noted in my ``~/code/`` directory.  I
-figured that if I found it useful, others might too.
+of git but it should get you started.  This is really just a list of steps that
+I found myself repeating a lot and had noted at the top of my ``~/code/``
+directory.  I figured that if I found it useful, others might too.
 
 Configuring SSH
 ---------------
@@ -81,7 +81,7 @@ Sync a Forked Repo
 ------------------
 
 1. Fetch upstream branches from the upstream repository.  Commits to
-   ``master`` will be stored in a local branch, ``upstream/master``.::
+   ``master`` will be stored in a local branch, ``upstream/master``::
 
      $ git fetch upstream
 
@@ -101,8 +101,8 @@ Sync a Forked Repo
 
      $ git push <REMOTENAME> <BRANCHNAME>
 
-   This is usually something like `git push origin master', where
-   `origin' is the forked repo on GitHub and `master' is the local
+   This is usually something like ``git push origin master``, where
+   ``origin`` is the forked repo on GitHub and ``master`` is the local
    master branch, which has been updated from the upstream repository.
      
 Links
