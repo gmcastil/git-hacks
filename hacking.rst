@@ -4,7 +4,7 @@ Startup with GitHub
 This is a very basic tutorial on how to get up and running with an open source
 project that is hosted on GitHub.  It does not cover nearly all of the features
 of git but it should get you up.  This is really just a list of steps that I
-found myself repeating a lot and had noted in my `~/code/` directory.  I
+found myself repeating a lot and had noted in my ``~/code/`` directory.  I
 figured that if I found it useful, others might too.
 
 Configuring SSH
@@ -44,19 +44,21 @@ that no shell access is provided (for obvious reasons).
 Clone the Forked Copy
 ---------------------
 
-Fork the upstream repository that you want to work on (e.g., NumPy) into your
+Fork the upstream repository that you want to work on (e.g., NumPy_) into your
 GitHub account (you will probably need to do this from the web interface).
+
+.. _NumPy: http://www.numpy.org
 
 1. Now clone a local copy::
 
      $ git clone git@github.com:USERNAME/<forked repo>.git <local name>
 
-2. Add this as the `origin` repository::
+2. Add this as the ``origin`` repository::
 
      $ cd <local_name>
      $ git remote add origin git@github.com:USERNAME/<forked_repo>.git
 
-   To the show the `origin` repository as being the forked one::
+   To the show the ``origin`` repository as being the forked one::
 
      $ git remote -v
 
@@ -79,17 +81,17 @@ Sync a Forked Repo
 ------------------
 
 1. Fetch upstream branches from the upstream repository.  Commits to
-   `master` will be stored in a local branch, `upstream/master`.::
+   ``master`` will be stored in a local branch, ``upstream/master``.::
 
      $ git fetch upstream
 
-2. Check our your fork's local `master` branch::
+2. Check our your fork's local ``master`` branch::
 
      $ git checkout master
      Switched to branch 'master'
 
-3. Merge the changes from `upstream/master` into the local `master`
-   branch.  This brings your local fork's `master` branch into sync
+3. Merge the changes from ``upstream/master`` into the local ``master``
+   branch.  This brings your local fork's ``master`` branch into sync
    with the upstream repository, without losing your local changes.::
 
      $ git merge upstream/master
