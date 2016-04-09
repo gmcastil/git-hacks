@@ -1,2 +1,4 @@
 # git-hacks
-Common operations involving git and github.
+Common operations involving git and GitHub.
+
+
