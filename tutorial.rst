@@ -39,7 +39,8 @@ and placed in the right location.
      $ ssh -T git@github.com
 
 You should see a message telling you that you are authenticated, but
-that no shell access is provided (for obvious reasons).
+that no shell access is provided (for obvious reasons).  This also works on
+Gitlab as well.
 
 Clone the Forked Copy
 ---------------------
