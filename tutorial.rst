@@ -1,4 +1,5 @@
-Startup with GitHub
+=====================
+ Startup with GitHub
 =====================
 
 This is a very basic tutorial on how to get up and running with an open source
@@ -8,7 +9,7 @@ I found myself repeating a lot and had noted at the top of my ``~/code/``
 directory.  I figured that if I found it useful, others might too.
 
 Configuring SSH
----------------
+===============
 
 Before doing anything else, make sure that the appropriate keys are installed
 and placed in the right location.
@@ -43,7 +44,7 @@ that no shell access is provided (for obvious reasons).  This also works on
 Gitlab as well.
 
 Clone the Forked Copy
----------------------
+=====================
 
 Fork the upstream repository that you want to work on (e.g., NumPy_) into your
 GitHub account (you will probably need to do this from the web interface).
@@ -79,7 +80,7 @@ GitHub account (you will probably need to do this from the web interface).
      upstream	git@github.com:scipy/scipy.git (push)
 
 Sync a Forked Repo
-------------------
+==================
 
 1. Fetch upstream branches from the upstream repository.  Commits to
    ``master`` will be stored in a local branch, ``upstream/master``::
@@ -105,9 +106,14 @@ Sync a Forked Repo
    This is usually something like ``git push origin master``, where
    ``origin`` is the forked repo on GitHub and ``master`` is the local
    master branch, which has been updated from the upstream repository.
-     
+
+Checkout, Revert, and Reset
+===========================
+
+
+
 Links
------
+=====
 
 This looks helpful:
 
